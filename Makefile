@@ -15,7 +15,7 @@
 # --- Configuration ---
 PYTHON = python3
 CONFIG_FILE = config.yaml
-STATIC_INPUT = data/cleaned/math_arxiv_snapshot.csv
+STATIC_INPUT = data/cleaned/cs_arxiv_snapshot.csv
 SRC_FILES = $(wildcard src/*.py)
 
 # Define the stamp files that represent the completion of each step.
